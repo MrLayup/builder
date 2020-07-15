@@ -13,7 +13,7 @@ Packager:       Thrift Developers <dev@thrift.apache.org>
 Source0:        thrift-%{version}.tar.gz
 
 BuildRequires:  gcc >= 3.4.6, php-devel = 7.4.7
-BuildRequires:  gcc-c++, byacc, bison, flex
+BuildRequires:  gcc-c++, byacc, bison, flex, php-composer-ca-bundle
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 %description
