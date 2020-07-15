@@ -12,8 +12,8 @@ URL:            http://thrift.apache.org
 Packager:       Thrift Developers <dev@thrift.apache.org>
 Source0:        thrift-%{version}.tar.gz
 
-BuildRequires:  gcc >= 3.4.6
-BuildRequires:  gcc-c++, byacc, bison, php-devel-7.4.7, flex
+BuildRequires:  gcc >= 3.4.6, php-devel = 7.4.7
+BuildRequires:  gcc-c++, byacc, bison, flex
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 %description
